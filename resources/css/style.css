@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Comfortaa", cursive;
+  background: #a19bfd;
+}
+
+.hide {
+  display: none;
+}
+.text-overflow {
+  overflow: auto;
+}
+.text-break {
+  word-break: break-all;
+}
+/* Start Css to Header */
+header {
+  display: flex;
+  height: 10vh;
+  margin: 50px 0px;
+  align-items: center;
+  justify-content: center;
+}
+header h1 {
+  font-size: 5em;
+  color: #6a5bea;
+}
+/* End Css to Header */
+/* Start Css to Text Section */
+.text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#txt-input {
+  font-size: 3em;
+  width: 40%;
+  height: 50vh;
+  border: none;
+  background: none;
+  resize: none;
+}
+#txt-input:focus-visible {
+  outline: none;
+}
+.output-container {
+  box-shadow: 0px 10px 50px 15px rgb(0 0 0 / 35%);
+  border-radius: 32px;
+  width: 40%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#txt-output {
+  font-size: 1.9em;
+  text-align: center;
+  margin: 32px;
+}
+#txt-info {
+  font-size: 1.6em;
+  text-align: center;
+  margin: 32px;
+}
+/* End Css to Text Section */
+/* Start Css to Condition */
+.condition-container {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.material-symbols-outlined {
+  font-size: 2em;
+  margin-right: 10px;
+}
+.condition-msg {
+  font-size: 1.2em;
+}
+/* End Css to Condition */
+/* Start Css to Button Control */
+.btn-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.btn {
+  width: 50%;
+  height: 78px;
+  font-size: 1.3em;
+  border-radius: 24px;
+  cursor: pointer;
+}
+.btn-primary {
+  background: #6a5bea;
+  color: #ffffff;
+  border-color: transparent;
+}
+.btn-secondary {
+  background: #a19bfd;
+  border: 1px solid #6a5ce7;
+  color: #6a5ce7;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  font-size: 1.6em;
+}
+/* End Css to Button Control */
+/* Start Css to Footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+/* End Css to Footer */
