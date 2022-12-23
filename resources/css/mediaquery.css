@@ -25,7 +25,7 @@
   }
   .output-container {
     position: absolute;
-    top: 520px;
+    top: 600px;
     left: 10%;
     width: 80%;
     font-size: 0.6em;
@@ -54,7 +54,7 @@
   }
   footer {
     position: absolute;
-    top: 790px;
+    top: 1000px;
     font-size: 0.7em;
     gap: 8px;
     text-align: center;
