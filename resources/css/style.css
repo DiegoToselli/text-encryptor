@@ -3,9 +3,16 @@
   margin: 0;
   padding: 0;
 }
+html {
+  background: url(./img/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 body {
   font-family: "Comfortaa", cursive;
-  background: #a19bfd;
+  color: gainsboro;
 }
 
 .hide {
@@ -27,7 +34,7 @@ header {
 }
 header h1 {
   font-size: 5em;
-  color: #6a5bea;
+  color: gainsboro;
 }
 /* End Css to Header */
 /* Start Css to Text Section */
@@ -43,6 +50,16 @@ header h1 {
   border: none;
   background: none;
   resize: none;
+  color: gainsboro;
+  text-align: center;
+  padding: 15px;
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0);
+  border-radius: 32px;
+  box-shadow: 0px 10px 50px 15px rgb(0 0 0 / 35%);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 #txt-input:focus-visible {
   outline: none;
@@ -74,7 +91,8 @@ header h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 15px;
+  margin: 10px 0 10px 0;
+  font-weight: 600;
 }
 .material-symbols-outlined {
   font-size: 2em;
@@ -100,14 +118,14 @@ header h1 {
   cursor: pointer;
 }
 .btn-primary {
-  background: #6a5bea;
-  color: #ffffff;
+  background: darkolivegreen;
+  color: gainsboro;
   border-color: transparent;
 }
 .btn-secondary {
-  background: #a19bfd;
-  border: 1px solid #6a5ce7;
-  color: #6a5ce7;
+  background: transparent;
+  border: 1px solid darkolivegreen;
+  color: gainsboro;
 }
 
 .btn-primary:hover,
